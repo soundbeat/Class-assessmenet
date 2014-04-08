@@ -1,0 +1,18 @@
+##Showcase##
+###Wordpress - Content managed systems###
+[![Wordpress Content Management System](showcase-8.png "Wordpress Content Management")](showcase/cms-wordpress "Showcase Wordpress System")
+
+[![Wordpress Content Management System](bon-ami-1-sml.png "Wordpress Content Management")](showcase/cms-wordpress "Showcase Wordpress System")
+
+[![Wordpress Content Management System](bon-ami-1.png "Wordpress Content Management")](showcase/cms-wordpress "Showcase Wordpress System")
+####Bon Ami Lewes####
+
+[![Wordpress Content Management System](potfolio-1-sml.png "Wordpress Content Management")](showcase/cms-wordpress "Showcase Wordpress System")
+
+[![Wordpress Content Management System](potfolio-1.png "Wordpress Content Management")](showcase/cms-wordpress "Showcase Wordpress System")
+####Potfolio####
+
+[![Wordpress Content Management System](arrow-photo-1-sml.png "Wordpress Content Management")](showcase/cms-wordpress "Showcase Wordpress System")
+
+[![Wordpress Content Management System](arrow-photo-1.png "Wordpress Content Management")](showcase/cms-wordpress "Showcase Wordpress System")
+####Lisa Beaney Photography####

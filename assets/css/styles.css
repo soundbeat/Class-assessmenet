@@ -1,0 +1,175 @@
+@import 'reset.css';
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+/*Variables and mixins*/
+#page {
+  position: relative;
+  width: 100%;
+  left: auto;
+  right: auto;
+}
+body {
+  font: 14px/1.5 'Open Sans', sans-serif;
+  color: #663333;
+  width: 100%;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+h3 {
+  float: right;
+}
+header {
+  background-color: #663333;
+}
+header h1 {
+  font-size: 24px;
+  padding: 20px;
+  background: #d4aaaa;
+  text-align: center;
+}
+header nav li {
+  width: 100%;
+  text-align: center;
+}
+header nav li a {
+  display: block;
+  padding: 6px 0;
+  background-color: #663333;
+  color: #cc9999;
+  text-decoration: none;
+}
+section {
+  clear: both;
+}
+section h2 {
+  font-size: 24px;
+  padding: 24px 0;
+}
+section p img {
+  width: 100%;
+}
+section.second p {
+  margin: 24px 16px;
+}
+section.second p img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+section.second p a {
+  color: #aa5555;
+  text-decoration: none;
+  font-weight: 600;
+}
+footer {
+  clear: both;
+}
+footer li {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+footer li a {
+  display: block;
+  padding: 6px 0px;
+  background-color: #663333;
+  color: #cc9999;
+  text-decoration: none;
+}
+footer ul + ul li {
+  position: relative;
+  width: 200px;
+  right: auto;
+  left: auto;
+  padding: auto;
+  margin: auto;
+}
+@media (min-width: 481px) {
+  #page {
+    width: 750px;
+  }
+  body {
+    font-size: 16px;
+    width: 750px;
+  }
+  header {
+    clear: both;
+    height: 96px;
+  }
+  header h1 {
+    width: 290px;
+    float: left;
+    padding: 58px 20px;
+  }
+  header nav {
+    width: 420px;
+    float: right;
+  }
+  header nav ul {
+    margin-top: 48px;
+  }
+  header nav li {
+    width: 140px;
+    float: left;
+  }
+  header nav li a {
+    padding: 14px 0;
+  }
+  section {
+    clear: both;
+  }
+  section.second p {
+    width: 290px;
+    float: left;
+  }
+  section.second p + p {
+    width: 396px;
+    float: right;
+  }
+  section div {
+    clear: both;
+  }
+  footer ul + ul {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    float: left;
+  }
+  footer li {
+    width: 140px;
+  }
+}
+@media (min-width: 481px) and (min-width: 960px) {
+  #page {
+    width: 960px;
+  }
+  body {
+    width: 960px;
+  }
+  header {
+    height: 64px;
+  }
+  header h1 {
+    width: 290px;
+    padding: 32px 20px;
+    text-align: left;
+  }
+  header nav {
+    width: 630px;
+  }
+  header nav li {
+    width: 105px;
+  }
+  section.second p + p {
+    width: 606px;
+  }
+  ul + ul {
+    right: 0;
+    width: 510px;
+    left: auto;
+    right: auto;
+  }
+}
