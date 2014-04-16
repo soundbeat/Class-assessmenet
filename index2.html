@@ -12,12 +12,16 @@
 
 <body>
 
-<header>
+<div id="pageBody">
+    <div id="topCont">
+        <div id="topLogo">
+            <div id="topMenu">
    <!-- <h1>Arrow Media</h1> -->
-    <a href="index.html"><img src="assets/images/arrow-media-logo.png" alt="logo" /></a>
+
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+
+            <li class="noshow"><a href="index.html">Home</a></li>
             <li><a href="profile.html">Profile</a></li>
             <li><a href="process.html">Process</a></li>
             <li><a href="services.html">Services</a></li>
@@ -27,7 +31,10 @@
         </ul>
     </nav>
 
-</header>
+</div>
+</div>
+    </div>
+
 
 <div id="page" class="container">
     <section class="first">
@@ -69,7 +76,7 @@
 <section class="third">
     <div class="first subsection">
         <h2>Latest Projects</h2>
-        <div class="threecolumns">
+        <section class="col-3">
 
                 <h3>Bon Ami Lewes</h3>
                 <p>
@@ -81,14 +88,14 @@
                 <p>
                     <a href="showcase%20BonAmi.html">Read More</a>
                 </p>
-    </div>
+    </section>
         </div>
 
 
 
 
     <div class="second subsection">
-        <div class="threecolumns">
+        <section class="col-3">
 
         <h3>Arrow Photography</h3>
 
@@ -102,14 +109,14 @@
             <a href="showcase%20BonAmi.html">Read More</a>
         </p>
         <br>
-        </div>
+        </section>
     </div>
 
 
 
 
     <div class="third subsection">
-        <div class="threecolumns">
+        <section class="col-3">
         <h3>Portfolio</h3>
 
         <p>
@@ -119,7 +126,7 @@
             Modx based, innovative product based in South East England. The brief was to produce a SaaS based system to promote and maintain customer relations.
         </p>
         <p><a href="showcase%20BonAmi.html">Read More</a> </p>
-    </div>
+    </section>
         </div>
 
 
@@ -132,9 +139,9 @@
 <div class="fourth subsection">
     <h2>Latest News</h2>
 
-    <div class="twocolumns">
+    <section class="col-3">
     <h3>Pillars of cloudiness</h3>
-    <img src="assets/images/home%20images/hybrid_1.png" alt="Pillars of Cloudiness">
+    <p class="image-blu"></p><img src="assets/images/home%20images/hybrid_1.png" alt="Pillars of Cloudiness"></p>
     <p>The five pillars of cloudiness includes:
 
         - Parallel computing
@@ -144,14 +151,14 @@
         - Security
     </p>
     <p><a href="http://www.rackspace.co.uk">Read More</a></p>
-</div>
+</section>
 </div>
 
 
 <div class="fifth subsection">
-    <div class="twocolumns">
+    <section class="col-3">
     <h3>PHPStorm builds upon its success</h3>
-    <img src="assets/images/home%20images/phpstorm_1.png" alt="Jetbrains PhPStorm">
+    <p class="image-blu"></p><img src="assets/images/home%20images/phpstorm_1.png" alt="Jetbrains PhPStorm"></p>
     <p>
         All the cutting edge front-end technologies are supported, including HTML5, CSS, Sass, SCSS, Less, Stylus,
         Compass, CoffeeScript, TypeScript, ECMAScript Harmony, Jade, Emmet, and of course JavaScript, with re-factorings,
@@ -159,17 +166,19 @@
     </p>
     <p><a href="http://www.jetbrains.com">Read More</a></p>
 
+</section>
 </div>
-</div>
 
 
+    <section class="col-4">
 
-<p>
     <img src="assets/images/profile/promo_1.png">
     <img src="assets/images/profile/promo_2.png">
     <img src="assets/images/profile/promo_3.png">
     <img src="assets/images/profile/promo_4.png">
-</p>
+
+        </section>
+
 
         <footer>
             <ul class="nav">
@@ -178,12 +187,12 @@
             </ul>
 
         </footer>
-</section>
 
+    </section>
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery.tcycle.js"></script>
     <script src="assets/js/scripts.js"></script>
 
-
+</div>
 </body>
 </html>
